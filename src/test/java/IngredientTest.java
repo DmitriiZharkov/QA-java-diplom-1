@@ -35,6 +35,7 @@ public class IngredientTest {
             ingredient = new Ingredient(type,name,price);
         } catch (IllegalArgumentException exception){
             System.out.println(exception.getMessage());
+            exception.printStackTrace();
         }
 
     }
